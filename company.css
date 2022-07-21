@@ -150,3 +150,26 @@ nav {
   transform: translate(-50%, -50%);
   z-index: 10;
 }
+
+@media only screen and (max-width: 500px){
+  .image-containers img {
+    max-width: 240px;
+    max-height: 500px;
+    padding: 1rem;
+    margin: 1rem 3rem;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  }
+
+  #image-big {
+    position: fixed;
+    background-color: white;
+    padding: 1rem;
+    height: 400px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+}
